@@ -1,4 +1,7 @@
+body{
+    background-color:#90d7ec;
+}
 h2 {
-    background:#90d7ec;
-    background-size:auto;
+    background:#ffffff;
+    padding:0.5em;
 }
