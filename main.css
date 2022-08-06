@@ -1,6 +1,11 @@
 body{
     background-color:#ffffc8;
 }
-h2 {
+.honbun {
     background:#ffffff;
+}
+.daimei{
+    size:50px;
+    color:#0000ff;
+    text-align:center;
 }
