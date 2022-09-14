@@ -3,6 +3,12 @@
 body{
     background-color:#ffffc8;
 }
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
 .honbun {
     color:black;
     font-size:20px;
@@ -15,6 +21,17 @@ body{
 }
 .menu-bar{
     position: relative;
-    width: 30vw;
-    float: left;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 10vw;
+    display: inline;
+}
+.menu-bar a{
+    width: 8vw;
+    color: black;
+    background-color: white;
+    position: absolute;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
 }
