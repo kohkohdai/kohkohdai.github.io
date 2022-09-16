@@ -5,6 +5,7 @@ body{
 }
 ul{
     display: flex;
+    padding-left: 0%;
 }
 li{
     list-style: none;
@@ -23,15 +24,34 @@ li{
     position: relative;
     font-size: 20px;
     text-align: center;
-    margin-right: 10vw;
+    align-items: center;
+    margin-right: 8vw;
     display: inline;
 }
 .menu-bar a{
     width: 8vw;
+    height: 5vh;
     color: black;
     background-color: white;
-    position: absolute;
     text-decoration: none;
-    top: 50%;
-    left: 50%;
+    justify-content: center;
+}
+.menu-bar p{
+    width: 15vw;
+    height: 5vh;
+    color: black;
+    text-decoration: none;
+}
+nav{
+    text-align: center;
+    box-sizing: border-box;
+    background-color: turquoise;
+    height: 10vh;
+    width: 100%;
+}
+.menubartitle{
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    display: inline;
 }
