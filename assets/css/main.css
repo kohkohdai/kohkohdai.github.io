@@ -22,31 +22,26 @@ li{
 }
 .menu-bar{
     position: relative;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     align-items: center;
-    margin-right: 8vw;
-    display: inline;
+    margin-right: 4vw;
+    margin-top: 2vh;
+    display: inline-block;
 }
 .menu-bar a{
     width: 8vw;
-    height: 5vh;
+    height: 7vh;
     color: black;
     background-color: white;
     text-decoration: none;
     justify-content: center;
 }
-.menu-bar p{
-    width: 15vw;
-    height: 5vh;
-    color: black;
-    text-decoration: none;
-}
 nav{
     text-align: center;
     box-sizing: border-box;
     background-color: turquoise;
-    height: 10vh;
+    height: 11vh;
     width: 100%;
 }
 .menubartitle{
@@ -54,4 +49,6 @@ nav{
     font-size: 20px;
     text-align: center;
     display: inline;
+    margin-left: 2vw;
+    margin-right: 3vw;
 }
