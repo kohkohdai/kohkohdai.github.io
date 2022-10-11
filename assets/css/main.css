@@ -1,7 +1,8 @@
 @charset "utf-8";
 
 body{
-    background-color:#ffffc8;
+    background-color:#ddd58e;
+    -webkit-text-size-adjust: 100%;
 }
 .honbun {
     color:black;
@@ -102,7 +103,7 @@ main{
 }
 nav{
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
     background-color: rgba(255, 255, 255, 0.9);
     position: fixed;
     top: 0;
@@ -151,6 +152,10 @@ nav{
     height: 36vh;
     position: relative;
     float: left;
+}
+.homebox:hover{
+    background: #86c6ff;
+    border-bottom: solid 6px #6aa4db;
 }
 .homebox p {
     margin: 0; 
