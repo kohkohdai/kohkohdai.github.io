@@ -148,8 +148,8 @@ nav{
     background: #c6e4ff;
     border-bottom: solid 6px #aac5de;
     border-radius: 9px;
-    width: 32vw;
-    height: 36vh;
+    width: 28vw;
+    height: 28vw;
     position: relative;
     float: left;
 }
@@ -171,11 +171,15 @@ nav{
     cursor: pointer;
 }
 #deco1box,#deco3box{
-    left: 7vw;
+    left: 10vw;
 }
 #deco3box,#deco4box{
     top: 6vh;
 }
 #deco2box,#deco4box{
-    left: 11vw;
+    left: 14vw;
+}
+#obakeimage{
+    width: 28vw;
+    height: 21vw;
 }
