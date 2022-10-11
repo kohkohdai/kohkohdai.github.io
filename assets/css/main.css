@@ -193,4 +193,8 @@ nav{
         top: 4vh;
         left: 15vw;
     }
+    #obakeimage{
+        width: 60vw;
+        height: 45vw;
+    }
 }
