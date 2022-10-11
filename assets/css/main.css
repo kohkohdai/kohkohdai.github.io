@@ -171,13 +171,13 @@ nav{
     cursor: pointer;
 }
 #deco1box,#deco3box{
-    left: 10vw;
+    left: 11vw;
 }
 #deco3box,#deco4box{
-    top: 6vh;
+    top: 4vh;
 }
 #deco2box,#deco4box{
-    left: 14vw;
+    left: 13vw;
 }
 #obakeimage{
     width: 28vw;
@@ -188,10 +188,11 @@ nav{
         width: 60vw;
         height: 60vw;
         float: none;
+        margin-top: 4vh;
     }
     #deco1box,#deco2box,#deco3box,#deco4box{
         top: 4vh;
-        left: 15vw;
+        left: 14vw;
     }
     #obakeimage{
         width: 60vw;
