@@ -1,8 +1,31 @@
 @charset "utf-8";
 
 body{
-    background-color:#ddd58e;
     -webkit-text-size-adjust: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.normalbody{
+    background-color: #ddd58e;
+}
+.moviebody{
+    background-color: hsl(355, 93%, 80%);
+    /*f95a66 66%*/
+}
+.theaterbody{
+    background-color: hsl(60, 100%, 76%);
+    /*ffff3c 62%*/
+}
+.dasshutsubody{
+    background-color: hsl(11, 100%, 90%);
+    background-image: url(../image/blastback.png);
+    background-position: center center;
+    background-size: cover;
+    /*ea2c00 46%*/
+}
+.obakebody{
+    background-color: hsl(239, 100%, 91%);
+    /*8a8bff 77%*/
 }
 .honbun {
     color:black;
@@ -11,9 +34,9 @@ body{
 }
 .subtitle{
     font-size: 40px;
-    color:#0000ff;
-    text-align:center;
-    font-family: "MS PGothic";
+    color:black;
+    text-align: center;
+    font-family: "UD デジタル 教科書体 NP-B";
     line-height: 50px;
 }
 .menu-bar{
@@ -142,6 +165,10 @@ nav{
     background-color: #bfbfbf;
     transition: 0.3s;
 }
+.homeboxes{
+    width: 100%;
+    height: 68vw;
+}
 .homebox{
     padding: 1vh 2vw;
     margin: 2vh 2vw;
@@ -172,17 +199,26 @@ nav{
     cursor: pointer;
 }
 #deco1box,#deco3box{
-    left: 11vw;
+    left: 12vw;
 }
 #deco3box,#deco4box{
-    top: 4vh;
+    top: 2vw;
 }
 #deco2box,#deco4box{
-    left: 13vw;
+    left: 14vw;
 }
-#obakeimage{
+.homedecoimage{
     width: 28vw;
     height: 21vw;
+}
+footer{
+    text-align: center;
+    background-color: red;
+    color: white;
+    width: 100%;
+}
+footer h3{
+    margin-bottom: 0;
 }
 @media screen and (max-width: 800px){
     .homebox{
